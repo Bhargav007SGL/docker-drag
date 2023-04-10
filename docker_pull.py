@@ -15,7 +15,7 @@ if len(sys.argv) != 2 :
 	exit(1)
 
 # Look for the Docker image to download
-repo = 'library'
+repo = 'alpine'
 tag = 'latest'
 imgparts = sys.argv[1].split('/')
 try:
